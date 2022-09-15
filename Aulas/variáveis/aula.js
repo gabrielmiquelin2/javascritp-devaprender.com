@@ -1,7 +1,7 @@
-// let idade = 5;
-// console.log(idade);
-// let altura =180;
-// console.log(altura);
+let idade = 5;
+console.log(idade);
+let altura =180;
+console.log(altura);
 
 //utilizar o "camelCase"
 //ou seja primeira letra da variavel minuscula e a 
