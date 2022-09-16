@@ -61,12 +61,12 @@
 
                 //OPERADORES DE IGUALDAE
       //igualdade valor e tipo
-      console.log(1 === 1);
-      console.log('1' === 1);//o valor é o mesmo!MAS o tipo NÃO!
+      // console.log(1 === 1);
+      // console.log('1' === 1);//o valor é o mesmo!MAS o tipo NÃO!
 
       //iguldade
-      console.log(1 == 1);//Ele apenas vai ver se é o mesmo valor
-      console.log('1' == 1);//Ele apenas vai ver se é o mesmo valor
+      // console.log(1 == 1);//Ele apenas vai ver se é o mesmo valor
+      // console.log('1' == 1);//Ele apenas vai ver se é o mesmo valor
 
 
 
@@ -79,9 +79,9 @@
       //Imagine a seguinde situação
       //Tem um cliente se ele tiver mais que 100 pontos ele é premium,caso contrário comum
 
-      let pontos = 200;
-      let tipo = pontos > 100 ? 'premium' : 'comum';
-      console.log(tipo)
+      // let pontos = 200;
+      // let tipo = pontos > 100 ? 'premium' : 'comum';
+      // console.log(tipo)
 
 
  
@@ -91,8 +91,29 @@
 
                   //OPERADORES LÓGICOS
       //São usados para tomar decisões em condições multiplas
-      //Em JS temos 3 operadores
-
-      //Operador lógico E representado pelo &&
+      //Em JS temos 3 operadores  (E,OU e NOT)
+///////////////////////////////////////////////////////////////////////////////////
+      //OPERADOR E (&&)
       //Retorna TRUE se os dois operando forem TRUE por exemplo:
-      console.log(true && true);
+      // console.log(true && true);
+
+      // let maiorDeIdade = true;
+      // let possuiCarteiraDeTrabalho = false;
+      // let podeAplicar = maiorDeIdade && possuiCarteiraDeTrabalho;
+      // console.log(possuiCarteiraDeTrabalho);
+     
+///////////////////////////////////////////////////////////////////////////////////
+
+      //OPERADOR  OU (||)
+      //OU seja um ou outro,se um for verdadeiro já basta!
+      // let maiorDeIdade = false;
+      // let possuiCarteiraDeTrabalho = false;
+      // let podeAplicar = maiorDeIdade || possuiCarteiraDeTrabalho;
+      // console.log('Pode aplicar: ',podeAplicar);
+
+///////////////////////////////////////////////////////////////////////////////////
+
+     //OPERADOR NOT (!)
+//      let candidatoRecusado = !podeAplicar;
+//      console.log('Candidato Recusado ',candidatoRecusado)
+
