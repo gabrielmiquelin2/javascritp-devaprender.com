@@ -1,5 +1,5 @@
 //Tipo PRIMITIVO
-const mensagem = "Minha primeria mensagem";
+const mensagem = "Minha primeira mensagem";
 
 //Tipo OBJETO
 const outraMensagem = new String("Bom dia");
