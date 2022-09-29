@@ -159,13 +159,13 @@
 
 
 ////////////////////////COMBINAR ARRAYS ou JUNTANDO OS VALORES ///////////////////////////////////
-const numeros = [1,2,3,4,5];
+// const numeros = [1,2,3,4,5];
 
-const combinado = numeros.join('?');//o "join" -> responsável pela combinação
-console.log(combinado)
+// const combinado = numeros.join('?');//o "join" -> responsável pela combinação
+// console.log(combinado)
 
-const frase = "Olá meu nome é Gabriel";
-const resultado = frase.split("");
-console.log(resultado)
+// const frase = "Olá meu nome é Gabriel";
+// const resultado = frase.split("");
+// console.log(resultado)
 
-console.log(resultado.join ('-'));
+// console.log(resultado.join ('-'));
