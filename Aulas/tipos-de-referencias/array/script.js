@@ -56,4 +56,12 @@
 // console.log(marca);
 
 
-///////////////////////ARROW FUNCTIONS(função de seta)//////////////////////////
+///////////////////////ARROW FUNCTIONS(função de seta =>)//////////////////////////
+const marcas = [
+      {id:1, nome: 'nuke'},
+      {id:2, nome: 'dase'},
+ ]
+
+ consol.log(marcas.find(function(marca){
+      return marca.nome === 'nuke';
+ }));
