@@ -58,20 +58,114 @@
 
 ///////////////////////ARROW FUNCTIONS(função de seta =>)//////////////////////////
 
-//SEM function de seta
-const carros = [
-      {id:1, nome: 'fiat'},
-      {id:2, nome: 'bmw'},
- ]
-console.log(carros.find(function(carro){
-      return carro.nome === 'fiat';
-}))
+// //SEM function de seta
+// const carros = [
+//       {id:1, nome: 'fiat'},
+//       {id:2, nome: 'bmw'},
+//  ]
+// console.log(carros.find(function(carro){
+//       return carro.nome === 'fiat';
+// }))
 
 
 
-//COM function de seta 
-const marcas = [
-      {id:1, nome: 'nuke'},
-      {id:2, nome: 'dase'},
- ]
-console.log(marcas.find ((marca) => marca.nome === 'dase') )
+// //COM function de seta 
+// const marcas = [
+//       {id:1, nome: 'nuke'},
+//       {id:2, nome: 'dase'},
+//  ]
+// console.log(marcas.find ((marca) => marca.nome === 'dase') )
+
+
+
+///////////////////////COMO REMOVER ELEMENTOS DE UM ARRAY///////////////////////////////////////////
+      // const numero = [1,2,3,4,5,6];
+
+      // //Removendo numero do FINAL
+      // const ultimo = numero.pop();
+      // console.log(ultimo);
+      // console.log(numero)
+
+      // //Removendo numeros do INICIO
+      // const primero = numero.shift();
+      // console.log(primero);
+      // console.log(numero);
+
+      // //Removendo numeros do MEIO
+      // const meio = numero.splice(2,1);//2 representa o indice 
+      // console.log(meio);
+      // console.log(numero)
+
+
+
+ //////////////////////////////ESVAZIANDO UM ARRAY///////////////////////////////////////////////
+// let numeros = [1,2,3,4,5,6];
+// let outros = numeros;
+
+// //Solução 1 
+// numeros = [];
+// console.log(outros);
+
+// //Solução 2(melhor sulução)
+// numeros.length = 0;
+// console.log(numeros)
+// console.log(outros);
+
+// //Solução 3
+// numeros.splice(0,numeros.length);
+// console.log(numeros);
+// console.log(outros);
+
+// //Solução 4
+// while (numeros.length > 0)
+//    numeros.pop();
+
+
+
+///////////////////COMO COMBINAR/JUNTAR E DIVIDIR ARRAYS
+// const primeiro = ['a','b','c'];
+// const segundo = ['d','e','f'];
+
+// //JUNTAR ou COMBINAR
+// const combinado = primeiro.concat(segundo);
+// console.log(combinado);
+
+
+// //DIVIDIR
+// const cortado = combinado.slice();
+// console.log(cortado)
+
+
+
+/////////////OPERADOR SPREAD(cópias e clonagem de arrays)///////////////////////////////////////
+// const primeiro = [1,2,3];
+// const segundo = [4,5,6];
+
+// //const combinando = primeiro.concat(segundo);
+// const combinado = [...primeiro,'*',...segundo,'¨¨'];
+// console.log(combinado)
+
+// //const cortado = combinado.slice();
+// const clonando = [...combinado];
+// console.log(clonando);
+
+
+
+///////////////ITERANDO UM ARRAY ou seja PERCORRENDO OS ITENS DENTRO DE UM ARRAY///////////////
+// const numeros = [1,2,3,4,5];
+// //forEach
+// numeros.forEach((numero,in) => console.log(numero,indice))
+
+
+
+////////////////////////COMBINAR ARRAYS ou JUNTANDO OS VALORES ///////////////////////////////////
+const numeros = [1,2,3,4,5];
+
+const combinado = numeros.join('?');//o "join" -> responsável pela combinação
+console.log(combinado)
+
+const frase = "Olá meu nome é Gabriel";
+const resultado = frase.split("");
+console.log(resultado)
+
+console.log(resultado.join ('-'));
